@@ -18,4 +18,15 @@ Calculator.prototype.pingPong = function(goal) {
   return output;
 };
 
+Calculator.prototype.calculate = function(num1, num2, op){
+
+  switch(op) {
+    case "+" : return num1 + num2;
+    case "-" : return num1 - num2;
+    case "*" : return num1 * num2;
+    case "/" : return num1 / num2;
+    default : alert("oops! Something didn't work right!");
+  }
+};
+
 exports.calculatorModule = Calculator;

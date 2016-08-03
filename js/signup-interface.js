@@ -1,8 +1,8 @@
 $(document).ready(function(){
   $('#signup').submit(function(event){
     event.preventDefault();
-    var email = $('#email').val();
+    var email = $('#email-entry').val();
     $('#signup').hide();
-    $('#solution').prepend('<p>Thank you, ' + email + ' has been added to our list!</p>');
+    $('#email-display').append('<p>Thank you, ' + email + ' has been added to our list!</p>');
   });
 });
