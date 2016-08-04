@@ -5,7 +5,7 @@ $(document).ready(function() {
     event.preventDefault();
     var num1 = parseInt($('#num1').val());
     var num2 = parseInt($('#num2').val());
-    var op = $('#operator :selected').val()
+    var op = $('#operator :selected').val();
     // parseInt($('#operator :selected').val());
 
     console.log("num1, num2, op: " + num1, num2, op);
