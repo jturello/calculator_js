@@ -2,8 +2,9 @@ node_modules/
 bower_components/
 tmp/
 build/
+.env
 
-_Store
+DS_Store
 .AppleDouble
 .LSOverride
 
